@@ -1,0 +1,35 @@
+{
+	"id": "vannearrosage",
+	"name": "Vanne d'arrosage",
+	"pluginVersion": "0.2",
+	"description": {
+		"fr_FR": "Tuile de vanne d'arrosage Zigbee2MQTT (Sonoff SWV) : marche/arrêt, arrosage minuté, programme hebdomadaire, débitmètre.",
+		"en_US": "Zigbee2MQTT watering valve tile (Sonoff SWV): on/off, timed watering, weekly schedule, flow meter."
+	},
+	"licence": "MIT",
+	"author": "flab",
+	"require": "4.4",
+	"os": {
+		"min": 11,
+		"max": 12.99
+	},
+	"category": "nature",
+	"hasDependency": false,
+	"hasOwnDeamon": false,
+	"changelog_beta": "https://github.com/flab75/plugin-vannearrosage/blob/beta/docs/#language#/changelog.md",
+	"documentation_beta": "https://github.com/flab75/plugin-vannearrosage/blob/beta/docs/#language#/index.md",
+	"changelog": "https://github.com/flab75/plugin-vannearrosage/blob/master/docs/#language#/changelog.md",
+	"documentation": "https://github.com/flab75/plugin-vannearrosage/blob/master/docs/#language#/index.md",
+	"language": [
+		"fr_FR",
+		"en_US"
+	],
+	"compatibility": [
+		"diy",
+		"docker",
+		"rpi",
+		"luna",
+		"atlas",
+		"smart"
+	]
+}
